@@ -26,7 +26,7 @@ public class CreateUsersUsingArray {
         userArray.add(user2);
         userArray.add(user3);
 
-        // Send POST request to create the list of users
+        // Send POST request to create the list of user
         Response responseData = given()
                 .body(userArray.toJSONString())  // Directly use toJSONString() on the JSONArray
                 .contentType("application/json")
