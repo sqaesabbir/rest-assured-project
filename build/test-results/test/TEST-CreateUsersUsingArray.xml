@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CreateUsersUsingArray" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-01-13T16:20:33" hostname="Codemens-Mac-mini.local" time="3.045">
+  <properties/>
+  <testcase name="createUserList" classname="CreateUsersUsingArray" time="3.045"/>
+  <system-out><![CDATA[{
+    "code": 200,
+    "type": "unknown",
+    "message": "ok"
+}
+API Message: ok
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
