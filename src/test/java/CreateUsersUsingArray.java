@@ -42,6 +42,7 @@ public class CreateUsersUsingArray {
         System.out.println("API Message: " + message);
     }
 
+
     private JSONObject createUserObject(String id, String username, String firstName, String lastName, String email, String password, String phone, int userStatus) {
         JSONObject user = new JSONObject();
         user.put("id", id);
